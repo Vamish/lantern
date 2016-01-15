@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>Lantern - 人人可享的开放网络</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/favicon.png"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            border-top: 10px solid #75CBDA;
+            padding-bottom: 3rem;
+        }
+
+        h1 {
+            background: url("img/logo.svg") no-repeat center;
+            background-size: contain;
+            display: block;
+            margin: 4.5rem auto;
+            height: 9rem;
+        }
+
+        h2 {
+            font: normal 2.750rem/3rem 'prxnv_sb', sans-serif;
+            color: #2A2A2A;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        p {
+            font: normal 1.250rem/1.4rem 'prxnv_r', sans-serif;
+            color: #2a2a2a;
+            font-size: 14px;
+        }
+
+        p.centered {
+            width: 40vw;
+            margin: 1.250rem auto;
+            text-align: center;
+        }
+
+        a.button-dwnld {
+            height: 3.750rem;
+            display: block;
+            margin: 0 auto 1.5rem;
+            background-color: #75CBDA;
+            color: #fff;
+            border-radius: 5px;
+            width: 35vw;
+            font: normal 16px 'prxnv_sb', sans-serif;
+            text-decoration: none;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        a.button-dwnld#download-android-button {
+            padding: 10px;
+            height: 60px;
+            line-height: 40px;
+        }
+
+        #download-android {
+            margin-bottom: 10rem;
+            display: block;
+        }
+
+        footer {
+            width: 100%;
+            padding: 20px 0;
+            background: #75CBDA;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        @media (max-width: 649px) and (min-width: 320px) {
+            p.centered {
+                width: 70vw;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="/"><h1></h1></a>
+
+    <h2>人人可享的开放网络</h2>
+
+    <p class="centered">Lantern是一个免费的应用程序。它能帮助你随时随地快速、可靠、安全地访问互联网。</p>
+</header>
+<div id="download-android">
+    <a href="apk/lantern-android-beta.apk" id="download-android-button"
+       class="button-dwnld" data-localize="DOWNLOAD_ANDROID">下载安卓版</a>
+</div>
+<footer>
+    Vango搬运，原站:<a href="https://getlantern.org/">Lantern</a>
+</footer>
+</body>
+</html>
